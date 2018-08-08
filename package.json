@@ -1,0 +1,26 @@
+{
+  "name": "textify",
+  "version": "0.0.1",
+  "description": "Some text manipulation features",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/PassTheWessel/Textify"
+  },
+  "author": "Wessel Tip <wessel@go2it.eu>",
+  "license": "MIT",
+  "private": false,
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "text",
+    "string",
+    "edit",
+    "utility"
+  ]
+}
