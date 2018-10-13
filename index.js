@@ -115,6 +115,16 @@ class Textify {
     }
     return a.join('\n');
   }
+  
+  static tiny(text) {
+    if (!text || typeof text !== 'string') return new SyntaxError('Invalid message');
+    return text.toString().split('').map((i) => {
+      if (i = i.toLowerCase(), maps.tinyMap[i]) {
+        return maps.tinyMap[i];
+      }
+      return i;
+    }).join(' ');
+  }
 };
 
 module.exports = Textify;
