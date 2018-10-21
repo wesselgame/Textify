@@ -127,6 +127,7 @@ module.exports = class textutil {
   }
   
   static aesthetic(text) {
+    if (!text || typeof text !== 'string') return new SyntaxError('Invalid message');
     return text.replace(/[a-zA-Z0-9!\?\.'";:\]\[}{\)\(@#\$%\^&\*\-_=\+`~><]/g, (c) => String.fromCharCode(0xFEE0 + c.charCodeAt(0))).replace(/ /g, '　'); 
   }
 };
