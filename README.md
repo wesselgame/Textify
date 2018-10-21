@@ -1,16 +1,16 @@
-# Textify v0.0.1
+# text-util 0.0.2
 Some text manipulation features
 
 ## Installation
 Using NPM:
 ```sh
 npm i -g npm
-npm i textify
+npm i text-util
 ```
 Using Yarn:
 ```sh
 npm i yarn -g
-yarn add textify
+yarn add text-util
 ```
 
 ## Examples
@@ -22,6 +22,7 @@ console.log(Textify.hold('Hello wessel')) /* =>
 
 */
 ```
+Other examples can be found in the `/examples` directory
 
 > If you need any support or want to request a function, feel free to join https://discord.gg/SV7DAE9
 
