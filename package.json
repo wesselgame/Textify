@@ -1,11 +1,11 @@
 {
-  "name": "textify",
-  "version": "0.0.1",
+  "name": "text-util",
+  "version": "0.0.2",
   "description": "Some text manipulation features",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/PassTheWessel/Textify"
+    "url": "https://www.github.com/PassTheWessel/text-util"
   },
   "author": "Wessel Tip <wessel@go2it.eu>",
   "license": "MIT",
