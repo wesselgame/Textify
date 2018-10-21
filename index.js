@@ -24,7 +24,7 @@ SOFTWARE.
 
 const maps = require('./lib/strings.json');
 
-class Textify {
+module.exports = class textutil {
   static hold(text) {
     if (!text || typeof text !== 'string') return new SyntaxError('Invalid message');
     if (text.length > 1000) return new RangeError('String limit exceeded (1000)');
@@ -125,6 +125,8 @@ class Textify {
       return i;
     }).join(' ');
   }
+  
+  static aesthetic(text) {
+    return text.replace(/[a-zA-Z0-9!\?\.'";:\]\[}{\)\(@#\$%\^&\*\-_=\+`~><]/g, (c) => String.fromCharCode(0xFEE0 + c.charCodeAt(0))).replace(/ /g, '　'); 
+  }
 };
-
-module.exports = Textify;
