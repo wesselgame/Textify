@@ -1,3 +1,3 @@
-const Textify = require('..'); // Require Textify
+const textutil = require('..'); // Require text-util
 
-console.log(Textify.hold('Hello wessel'));
+console.log(textutil.hold('Hello wessel'));
