@@ -19,7 +19,8 @@ yarn add text-util
 const Textify = require('textify'); // Require Textify
 
 console.log(Textify.hold('Hello wessel')) /* =>
-
+🇭 🇪 🇱 🇱 🇴   🇼 🇪 🇸 🇸 🇪 🇱
+🙆 🙆 🙆 🙆 🙆   🙆 🙆 🙆 🙆 🙆 🙆
 */
 ```
 Other examples can be found in the `/examples` directory
