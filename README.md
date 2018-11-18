@@ -14,16 +14,7 @@ yarn add text-util
 ```
 
 ## Examples
-#### Emojis holding your string
-```js
-const Textify = require('textify'); // Require Textify
-
-console.log(Textify.hold('Hello wessel')) /* =>
-🇭 🇪 🇱 🇱 🇴   🇼 🇪 🇸 🇸 🇪 🇱
-🙆 🙆 🙆 🙆 🙆   🙆 🙆 🙆 🙆 🙆 🙆
-*/
-```
-Other examples can be found in the `/examples` directory
+Examples can be found inside the `/examples` directory
 
 > If you need any support or want to request a function, feel free to join https://discord.gg/SV7DAE9
 
